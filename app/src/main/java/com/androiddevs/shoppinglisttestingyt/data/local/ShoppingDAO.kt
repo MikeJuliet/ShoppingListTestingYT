@@ -1,14 +1,12 @@
-package com.androiddevs.shoppinglisttestingyt
+package com.androiddevs.shoppinglisttestingyt.data.local
 
 import androidx.lifecycle.LiveData
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 
 /**
  * Created by mj on 2021/04/15 at 5:38 PM
  */
+@Dao
 interface ShoppingDAO {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)

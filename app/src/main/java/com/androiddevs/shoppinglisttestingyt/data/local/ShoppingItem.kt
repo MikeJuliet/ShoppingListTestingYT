@@ -1,4 +1,4 @@
-package com.androiddevs.shoppinglisttestingyt
+package com.androiddevs.shoppinglisttestingyt.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
